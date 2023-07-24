@@ -20,10 +20,9 @@
                     continue;
                 }
 
-                var inputLetter = input[0];
-
                 Console.WriteLine("\nOutput:\n");
 
+                var inputLetter = input[0];
                 solution.DrawLetter(inputLetter);
 
                 Console.WriteLine();
